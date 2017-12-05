@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|PT+Sans');
+
+/* HomePage */
+.firstcontainer
+{
+    display: flex;
+    justify-content: center;
+    border-style: hidden;
+    height: 75px;
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.minicontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style: hidden;
+    height: 50px;
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+    padding-bottom: 55px;
+}
+
+.secondcontainer
+{ 
+    display: flex;
+    justify-content: space-between;
+    border-style: hidden;
+    height: 218px;
+    background-color: #b3ecff;
+}
+
+#moongate
+{
+    border-style: solid;
+    padding: 10px; color: #ffffff;
+    height: 191px; 
+    width: 220px;
+    margin-left: 40px;
+}
+
+#bridge
+{
+    border-style: solid;
+    padding: 10px; color: #ffffff;
+    height: 190px;
+    width: 220px;
+    margin-right: 40px;
+}
+
+.thirdcontainer
+{
+    display: flex;
+    border-style: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #b3ecff;
+}
+
+#crest
+{
+    justify-content: center;
+    border-style: inherit;
+}
+
+.fourthcontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-style: hidden;
+    height: 300px;
+    background-color: #b3ecff;
+}
+
+#mission
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-style: solid; 
+    height: 220px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #b3ecff;
+    font-family: 'PT Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.listlinks
+{
+    display: flex;
+    border-style: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#home
+{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#events
+{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#minutes
+{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#directory
+{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    height: 40px;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+ 
+#schoolsite
+{
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    height: 50px;
+    width: 50px;  
+    border-color: #003399;
+}
+
+/* Cropped Brooklyn Bridge */
+#photoAlt 
+{
+    width: 220px;
+    height: 191px;
+}
+
+#cartercrop
+{
+    width: 50px;
+    height: 50px;
+}
+
+#crestlarge
+{
+    width: 350px;
+    height: auto;
+}
+
+/* MinutesPage */
+
+.toptitle
+{
+    display: flex;
+    justify-content: center;
+    border-style: hidden;
+    height: 50px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.minititle
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style: hidden;
+    height: 30px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+        
+}
+
+.midrectangle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-style: hidden;
+    height: 300px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal; color: #003399;
+}
+
+.attendees
+{
+    border-style: hidden;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+.linkback
+{
+    display: flex;
+    border-style: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#home
+{
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+
+#events
+{
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#directory
+{
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#minutes
+{
+    background-color: #b3ecff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+.actualminutes
+
+#opening
+{
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal; 
+}
+
+#report
+{
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#treasurer
+{
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+#newBus
+{
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: normal;
+}
+
+/* Directory */
+
+.toptitle
+{
+    display: flex;
+    justify-content: center;
+    border-style: hidden;
+    height: 50px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.minititle
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style: hidden;
+    height: 30px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.mainBox
+{
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    border-style: hidden;
+}
+
+.members
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    width: 800px;
+    border-style: hidden;
+}
+
+.linkback
+
+#home
+#minutes
+#events
+#schoolsite
+
+/* Events */
+
+.toptitle
+
+.minititle
+
+.mainBox
+
+.leftbody
+{
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-end;
+    height: 800px;
+    width: 1000px;
+    margin: 20px;
+}
+
+/* blankbox created to add space */ 
+.blankbox
+{
+    border-style: hidden;
+    height: 150px;
+    width: 900px;
+}
+
+.partybox
+{
+    border-style: hidden;
+    height: 150px;
+    width: 900px;
+    font-family: 'PT Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.yardsbox
+{
+    border-style: hidden;
+    height: 150px;
+    width: 900px;
+    font-family: 'PT Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.glassbox
+{
+    border-style: hidden;
+    height: 150px;
+    width: 900px;
+    font-family: 'PT Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.meetingbox
+{
+    border-style: hidden;
+    height: 150px;
+    width: 900px;
+    font-family: 'PT Sans', sans-serif; color: #003399;
+    font-style: italic;
+}
+
+.linkback
+
+#home
+#minutes
+#directory
+#schoolsite
